@@ -24,9 +24,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  *                                        ,-------------.       ,-------------.
  *                                        | App  | LGui |       | Alt  |Ctrl/Esc|
  *                                 ,------+------+------|       |------+--------+------.
- *                                 |      |      |NeoL2 |       |NeoL2 |        |      |
+ *                                 |      |      |NeoL1 |       |NeoL1 |        |      |
  *                                 | Tab  |Backsp|------|       |------|  Space |Enter |
- *                                 |      |ace   |NeoL1 |       |NeoL1 |        |      |
+ *                                 |      |ace   |NeoL2 |       |NeoL2 |        |      |
  *                                 `--------------------'       `----------------------'
  */
 // If it accepts an argument (i.e, is a function), it doesn't need KC_.
@@ -39,8 +39,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_LSFT,         CTL_T(NEO_UE), C_S_T(NEO_OE), ALT_T(NEO_AE), NEO_P,   NEO_Z,   ALL_T(KC_NO),
         DE_LESS,         KC_HOME,       KC_PGDN,        KC_PGUP,        KC_END,
                                                 ALT_T(KC_APP),KC_LGUI,
-                                                              NEO_L2_L,
-                                               KC_TAB,KC_BSPC,NEO_L1_L,
+                                                              NEO_L1_L,
+                                               KC_TAB,KC_BSPC,NEO_L2_L,
         // right hand
         KC_MNXT,     KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    KC_MINS,
         TG(1),       NEO_K,   NEO_H,   NEO_G,   NEO_F,   NEO_Q,   NEO_SS,
@@ -48,8 +48,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         MEH_T(KC_NO),NEO_B,   NEO_M,   KC_COMM, KC_DOT,  NEO_J,   KC_RSFT,
                               KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_ESC,
         KC_LALT,CTL_T(KC_ESC),
-        NEO_L2_R,
-        NEO_L1_R,KC_SPC, KC_ENT
+        NEO_L1_R,
+        NEO_L2_R,KC_SPC, KC_ENT
     ),
 /* Keymap 1: Media and mouse keys
  *
