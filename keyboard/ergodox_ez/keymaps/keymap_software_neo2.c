@@ -33,7 +33,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 // Otherwise, it needs KC_*
 [BASE] = KEYMAP(  // layer 0 : default
         // left hand
-        KC_CIRC,         KC_1,          KC_2,          KC_3,          KC_4,    KC_5,    KC_MPLY,
+        KC_CIRC,         KC_1,          KC_2,          KC_3,          KC_4,    KC_5,    KC_F11,
         KC_DELT,         NEO_X,         NEO_V,         NEO_L,         NEO_C,   NEO_W,   TG(1),
         KC_CAPS,         NEO_U,         NEO_I,         NEO_A,         NEO_E,   NEO_O,
         KC_LSFT,         CTL_T(NEO_UE), C_S_T(NEO_OE), ALT_T(NEO_AE), NEO_P,   NEO_Z,   ALL_T(KC_NO),
